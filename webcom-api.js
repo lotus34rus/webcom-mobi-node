@@ -31,6 +31,9 @@ class WebcomApi {
 
 
     async sendSMS(options) {
+        if(!options.phones){
+            throw new Error('Phones list is required!')
+        }
         const phone = options.phones.join(',')
         const url = `${this.API_URL}?user=${this.LOGIN}&pwd=${this.PASSWORD}&sadr=${options.senderName}&text=${options.text}&dadr=${phone}`
 
@@ -51,6 +54,9 @@ class WebcomApi {
     //Send Viber Messages
 
     async sendViber(options) {
+        if(!options.phones){
+            throw new Error('Phones list is required!')
+        }
         const phone = options.phones.join(',')
         let url = `${this.API_URL}?user=${this.LOGIN}&pwd=${this.PASSWORD}&sender_viber=${options.senderName}&text_viber=${options.text}&dadr=${phone}&type_send_1=viber`
 
@@ -97,6 +103,9 @@ class WebcomApi {
     //Send cascade
 
     async sendCascade(options) {
+        if(!options.phones){
+            throw new Error('Phones list is required!')
+        }
 
         const phone = options.phones.join(',')
         let url = `${this.API_URL}?user=${this.LOGIN}&pwd=${this.PASSWORD}&dadr=${phone}&type_send_1=viber&sender_viber=${options.senderNameViber}&text_viber=${options.textViber}&validity_period_viber=${options.validityPeriod}`
