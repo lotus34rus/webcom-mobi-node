@@ -1,4 +1,4 @@
-# ${1:Project Name}
+# WEBCOM-MOBI-NODE
 webcom-mobi-node is a Simple SDK for WEBCOM MOBI HTTP API
 ## Installation
 `npm i webcom-mobi-node`
