@@ -53,7 +53,7 @@ In response, you will receive an array of sent messages id
 In response, you will receive an array of sent messages id
 
 
-### Sendiing Cascade (VIBER+SMS)
+### Sending Cascade (VIBER+SMS)
 
     const optionCascade = {
         senderNameSMS: "YOUR_SMS_SENDER_NAME",
