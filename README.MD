@@ -20,7 +20,7 @@ This package is a wrapper over the API of the mobile marketing system of the com
 ### Check message status
 
     const optionsStatus = {
-        smsid : '14190003' //Messsage ID, which you will receive after sending
+        smsid : '14190003' //Message ID, which you will receive after sending
     }
     app.getStatus(optionsStatus).then((status)=>console.log(status))
 
