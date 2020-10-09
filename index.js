@@ -14,7 +14,7 @@ let balance;
 
 //Отправка смс
 
-let phones = ['79044208261', '79044208181', '79044208262']
+let phones = ['79044208261']
 const optionSMS = {
     senderName: "Viber",
     phones: phones,
@@ -22,7 +22,7 @@ const optionSMS = {
 }
 
 
-// app.sendSMS(option).then((IDs)=> console.log(IDs))
+// app.sendSMS(optionSMS).then((IDs)=> console.log(IDs))
 
 //Viber
 
@@ -36,4 +36,12 @@ const optionViber = {
     buttonLink: 'buttonLink'
 }
 
-app.sendViber(optionViber).then((IDs)=> console.log(IDs))
+// app.sendViber(optionViber).then((IDs)=> console.log(IDs))
+
+
+//Запрос статуса
+const optionsStatus = {
+    smsid : '14181353'
+}
+// app.getStatus(optionsStatus).then((status)=>console.log(status))
+
