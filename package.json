@@ -1,14 +1,22 @@
 {
-  "name": "webcom-api",
+  "name": "webcom-mobi-node",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple SDK for WEBCOM MOBI HTTP API",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lotus34rus/webcome-mobi-node.git"
+  },
+  "author": "Dmitriy Mastikov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lotus34rus/webcome-mobi-node/issues"
+  },
+  "homepage": "https://github.com/lotus34rus/webcome-mobi-node#readme",
   "devDependencies": {
     "nodemon": "^2.0.4"
   },
