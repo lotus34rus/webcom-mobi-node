@@ -41,7 +41,23 @@ const optionViber = {
 
 //Запрос статуса
 const optionsStatus = {
-    smsid : '14181353'
+    smsid : '14190003'
 }
 // app.getStatus(optionsStatus).then((status)=>console.log(status))
 
+
+//Cascade
+
+const optionCascade = {
+    senderNameSMS: "SMS",
+    senderNameViber: "Viber",
+    phones: phones,
+    textViber: 'Test text Viber',
+    textSMS: 'Test text SMS',
+    image: 'test',
+    buttonText: 'buttonText',
+    buttonLink: 'buttonLink',
+    validityPeriod: '2020-10-09 15:34:54'
+}
+
+// app.sendCascade(optionCascade).then((res)=> console.log(res))
