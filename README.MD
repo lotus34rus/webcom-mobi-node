@@ -1,5 +1,21 @@
 # WEBCOM-MOBI-NODE
+
+WEBCOM MOBI - Mobile Marketing Services Company.
+
 webcom-mobi-node is a Simple SDK for WEBCOM MOBI HTTP API
+
+The system allows sending messages through the following channels:
+
+ - SMS
+ - Viber 
+
+It is possible to use the technology of cascade forwarding of messages through any channels. 
+
+To work with the system, you must create an account in the system WEBCOM MOBI.
+
+[Leave a request on the site](https://webcom.mobi/) and managers will contact you and help you create an account
+
+
 ## Installation
 `npm i webcom-mobi-node`
 ## How to use?
